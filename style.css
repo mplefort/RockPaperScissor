@@ -1,0 +1,59 @@
+body {
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.player {
+    display: inline-block;
+    width: 100px;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.player-box, .button-box, .result-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFFFFF;
+}
+
+.player-text, .button-text, .result-text {
+    margin-top: 5px;
+}
+
+/* Retro colors */
+.player-box, .button-box, .result-box {
+    background-color: #C0C0C0;
+}
+
+.player1-box {
+    background-color: #FF0000; /* Red for player 1 */
+}
+
+.player2-box {
+    background-color: #00FF00; /* Green for player 2 */
+}
+
+.rock-box {
+    background-color: #800000; /* Maroon for rock */
+}
+
+.paper-box {
+    background-color: #808000; /* Olive for paper */
+}
+
+.scissors-box {
+    background-color: #008000; /* Green for scissors */
+}
