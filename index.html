@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <title>Rock Paper Scissors</title>
 </head>
@@ -13,21 +14,26 @@
         <div class="player player1">
             <div class="player-box"></div>
             <div class="player-text">Player 1</div>
+            <div class="player1-score">0</div>
         </div>
         <div class="player player2">
             <div class="player-box"></div>
             <div class="player-text">Player 2</div>
+            <div class="player2-score">0</div>
         </div>
         
         <!-- Three buttons as divs side by side showing rock, paper, and scissors -->
         <div class="buttons">
             <div class="button rock-box">
+                <i class="fa-solid fa-hand-rock fa-beat"></i>
                 <div class="button-text">Rock</div>
             </div>
             <div class="button paper-box">
+                <i class="fas fa-hand-paper fa-beat"></i>
                 <div class="button-text">Paper</div>
             </div>
             <div class="button scissors-box">
+                <i class="fas fa-hand-scissors fa-beat"></i>
                 <div class="button-text">Scissors</div>
             </div>
         </div>
@@ -39,5 +45,7 @@
         </div>
     </div>
     <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/540c9c5f33.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
