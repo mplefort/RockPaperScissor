@@ -2,6 +2,7 @@
 
 function getComputerChoice() {
     let choices = ["rock", "paper", "scissors"];
+    choices.slice
     let comp_choice = choices[Math.floor(Math.random() * choices.length)];
     return comp_choice;
 }
