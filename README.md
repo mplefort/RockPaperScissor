@@ -1,4 +1,4 @@
 # RockPaperScissor
 JS Rock paper sissor game
 
-https://mplefort.github.io/rockpaperscissor
+[Rock Paper Scissor](https://mplefort.github.io/RockPaperScissor/)
